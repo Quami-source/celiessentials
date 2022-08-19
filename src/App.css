@@ -1,1 +1,115 @@
+nav{
+    margin-left: 20%;
+    margin-right: 20%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+}
 
+.links-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.brand-name{
+    text-transform: uppercase;
+    font-family: 'Noto Serif', serif;
+    font-weight: 600;
+}
+
+.links, .icons{
+    display: flex;
+    flex-direction: row;
+    flex:0.5
+}
+
+.links{
+    margin-left: 100px;
+    margin-right: 100px;
+    text-transform:uppercase;
+}
+
+.home-container{
+    padding-right: 20%;
+    padding-left: 20%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+.left{
+    flex:0.5;
+    
+}
+.left > h1{
+    font-family: 'Noto Serif', serif;
+    font-weight: 700;
+    font-size: 3em;
+    line-height: 1.2em;
+    width: 80%;
+}
+
+.right{
+    flex:0.5;
+    border-top-right-radius: 50px;
+}
+
+.right-img{
+    border-top-right-radius: 80px;
+    width: 80%;
+    height: 80%;
+    margin-top: 20px;
+}
+
+.btn-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.btn-container > button{
+    font-family: 'Poppins', sans-serif;
+}
+.right-btn:hover{
+    background-color: #264a1d;
+}
+.left-btn:hover{
+    background-color: #152910;
+    color: #fff;
+}
+
+.s-prod-container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+}
+.left-prod{
+    display: flex;
+    flex-direction: row;
+    margin-right: 10px;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.right-prod{
+    display: flex;
+    flex-direction: row;
+    margin-right: 10px;
+    padding: 10px;
+    align-items: center;
+}
+
+.small-prod{
+    width: 40%;
+    height: auto;
+}
+
+@media(max-width:900px) {
+    nav{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
