@@ -107,6 +107,29 @@ nav{
     height: auto;
 }
 
+.news-container{
+    padding-right: 20%;
+    padding-left: 20%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.best-sellers-container{
+    padding-right: 20%;
+    padding-left: 20%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.body-text{
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+}
+
 @media(max-width:900px) {
     nav{
         margin-left: 10%;

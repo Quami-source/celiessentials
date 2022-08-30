@@ -6,9 +6,10 @@ module.exports = {
   theme: {
     extend: {
       colors:{
-        pale_pink:"#fff1f2",
+        pale_pink:"#fcedee",
         pale_blue:"#e6effc",
-        primary:"#152910"
+        primary:"#152910",
+        dark:"#242424"
       }
     },
   },
